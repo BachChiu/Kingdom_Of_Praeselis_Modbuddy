@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Kingdom_Of_Praeselis</Name>
+    <Guid>a9f188c0-f26a-4d5e-86b2-15a39972c298</Guid>
+    <ProjectGuid>ab242dda-10ec-4d8d-bb71-a7d9b0bed8b7</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Custom civ</Teaser>
+    <Description>New civilization that focused on naval dominance.</Description>
+    <Authors>Bach Chiu</Authors>
+    <SpecialThanks>maconnolly, Dudeorama</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>KOP</AssemblyName>
+    <RootNamespace>KOP</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Leader/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Leader/Leader_Core.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UB.sql</File><File>Core/Civilization_UU.sql</File><File>Leader/Leader_UA.sql</File><File>Leader/Leader_Agenda.sql</File><File>Leader/Leader_Screens.sql</File><File>Core/Civilization_HistoricMoments.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Leader/Leader_Colors.sql</File><File>Core/Civilization_Colors.sql</File></UpdateColors><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateIcons id="NewIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="KOP.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtDef Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Core\Civilization_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_HistoricMoments.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UB.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NewIcons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Core.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Screens.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <XLP Include="Textures\LEADER_BC_DUDEOBAMA_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BC_DUDEOBAMA_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BC_DUDEOBAMA_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BC_DUDEOBAMA_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\KOPAtlas.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DoubleWheeledWaterMillHistoricMoment.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DoubleWheeledWaterMillHistoricMoment.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon256.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon256.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon32.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon32.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon45.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon45.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon48.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon48.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon50.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon50.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon55.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon55.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon64.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon64.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon80.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\DudeobamaIcon80.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FALLBACK_NEUTRAL_DUDEOBAMA.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FALLBACK_NEUTRAL_DUDEOBAMA.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas200.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas200.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas22.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas22.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas256.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas256.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas30.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas30.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas36.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas36.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas44.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas44.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas48.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas48.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas50.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas50.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas64.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas64.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas80.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\KOPAtlas80.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_DUDEOBAMA_DIPLO_BG.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_DUDEOBAMA_DIPLO_BG.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\SteamFishHistoricMoment.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\SteamFishHistoricMoment.tex">
+      <SubType>Content</SubType>
+    </XLP>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Core\" />
+    <Folder Include="Leader" />
+    <Folder Include="Textures" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

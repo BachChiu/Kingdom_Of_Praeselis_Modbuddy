@@ -1,0 +1,90 @@
+-- Civilization_Config
+-- Author: Bach
+-- DateCreated: 6/3/2023 12:23:58 PM
+--------------------------------------------------------------
+INSERT INTO	Types
+		(Type,							Kind					)
+VALUES	('CIVILIZATION_BC_KOP',			'KIND_CIVILIZATION'		);
+
+INSERT INTO Civilizations
+		(
+		CivilizationType,
+		Name,
+		Description,
+		Adjective,
+		StartingCivilizationLevelType,
+		RandomCityNameDepth,
+		Ethnicity
+		)
+VALUES	(
+		'CIVILIZATION_BC_KOP', --CivilizationType
+		'LOC_CIVILIZATION_BC_KOP_NAME', -- Name
+		'LOC_CIVILIZATION_BC_KOP_DESCRIPTION', -- Description
+		'LOC_CIVILIZATION_BC_KOP_ADJECTIVE', -- Adjective
+		'CIVILIZATION_LEVEL_FULL_CIV', -- StartingCivilizationLevelType
+		5, -- RandomCityNameDepth
+		'ETHNICITY_EURO' -- Ethnicity
+		);
+
+-- CityNames
+INSERT INTO	CityNames
+		(CivilizationType,			CityName						)
+VALUES	('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_1'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_2'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_3'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_4'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_5'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_6'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_7'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_8'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_9'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_10'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_11'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_12'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_13'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_14'		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITY_NAME_BC_KOP_15'		);
+
+-- CivilizationCitizenNames
+INSERT INTO	CivilizationCitizenNames
+		(CivilizationType,			CitizenName,						Female	)
+VALUES	('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_1',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_2',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_3',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_4',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_5',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_6',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_7',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_8',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_9',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_MALE_10',		0 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_1',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_2',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_3',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_4',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_5',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_6',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_7',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_8',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_9',		1 		),
+		('CIVILIZATION_BC_KOP',		'LOC_CITIZEN_BC_KOP_FEMALE_10',		1 		);
+
+-- CivilizationInfo
+INSERT INTO	CivilizationInfo
+		(CivilizationType,			Header,						Caption,								SortIndex	)
+VALUES	('CIVILIZATION_BC_KOP',		'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_BC_KOP_LOCATION',			10			),
+		('CIVILIZATION_BC_KOP',		'LOC_CIVINFO_SIZE',			'LOC_CIVINFO_BC_KOP_SIZE',				20			),
+		('CIVILIZATION_BC_KOP',		'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_BC_KOP_POPULATION',		30			),
+		('CIVILIZATION_BC_KOP',		'LOC_CIVINFO_CAPITAL',		'LOC_CIVINFO_BC_KOP_CAPITAL',			40			);
+
+INSERT INTO	StartBiasTerrains
+		(CivilizationType,			TerrainType,			Tier	)
+VALUES	('CIVILIZATION_BC_KOP',		'TERRAIN_COAST',		3		);
+
+INSERT INTO	StartBiasResources
+		(CivilizationType,			ResourceType,			Tier	)
+VALUES	('CIVILIZATION_BC_KOP',		'RESOURCE_OIL',			5		);
+
+INSERT INTO	StartBiasRivers
+		(CivilizationType,			Tier	)
+VALUES	('CIVILIZATION_BC_KOP',		1		);

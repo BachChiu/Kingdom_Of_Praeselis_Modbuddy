@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DoubleWheeledWaterMillHistoricMoment"/>
+			<m_ObjectName text="DoubleWheeledWaterMillHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon256"/>
+			<m_ObjectName text="DudeobamaIcon256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon32"/>
+			<m_ObjectName text="DudeobamaIcon32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon45"/>
+			<m_ObjectName text="DudeobamaIcon45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon48"/>
+			<m_ObjectName text="DudeobamaIcon48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon50"/>
+			<m_ObjectName text="DudeobamaIcon50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon55"/>
+			<m_ObjectName text="DudeobamaIcon55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon64"/>
+			<m_ObjectName text="DudeobamaIcon64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DudeobamaIcon80"/>
+			<m_ObjectName text="DudeobamaIcon80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas200"/>
+			<m_ObjectName text="KOPAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas22"/>
+			<m_ObjectName text="KOPAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas256"/>
+			<m_ObjectName text="KOPAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas30"/>
+			<m_ObjectName text="KOPAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas36"/>
+			<m_ObjectName text="KOPAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas44"/>
+			<m_ObjectName text="KOPAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas48"/>
+			<m_ObjectName text="KOPAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas50"/>
+			<m_ObjectName text="KOPAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas64"/>
+			<m_ObjectName text="KOPAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KOPAtlas80"/>
+			<m_ObjectName text="KOPAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BC_DUDEOBAMA_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BC_DUDEOBAMA_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DUDEOBAMA_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_DUDEOBAMA_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SteamFishHistoricMoment"/>
+			<m_ObjectName text="SteamFishHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BC_DUDEOBAMA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BC_DUDEOBAMA_NEUTRAL"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
