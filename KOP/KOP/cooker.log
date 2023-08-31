@@ -5,9 +5,9 @@ C:\Users\Bach\Documents\Firaxis ModBuddy\Civilization VI\KOP\KOP\XLPs\LeaderFall
 Opened output file: C:\Users\Bach\Documents\My Games\Sid Meier's Civilization VI\Mods\KOP\Platforms\MacOS\BLPs/LeaderFallbacks.blp    For XLP: 'C:\Users\Bach\Documents\Firaxis ModBuddy\Civilization VI\KOP\KOP\XLPs\LeaderFallbacks.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'LeaderFallbacks'
-Load finished for: 'LeaderFallbacks' in 0.002 seconds
+Load finished for: 'LeaderFallbacks' in 0.003 seconds
 Cook finished for: 'LeaderFallbacks' in 0.000 seconds
-Disk write finished for: 'LeaderFallbacks' in 0.047 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.108 seconds
 Cleanup finished for: 'LeaderFallbacks' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.061 seconds
+Cook completed in 0.133 seconds
